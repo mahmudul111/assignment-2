@@ -1,0 +1,80 @@
+/* font style */
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Shared css style */
+
+
+
+/* nav section */
+.nav-section{
+    
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+}
+.logo-container > img{
+    margin-left: 200px;
+}
+.nav-title{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+.title-g{
+color: #F948B2;
+}
+.nav-container{
+    display: flex;
+    gap: 30px;
+    min-height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item-container ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.item-container ul a{
+        text-decoration: none;
+        color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+}
+.item-container ul a:hover{
+            color: #F948B2;
+}
+.item-container ul li{
+        list-style: none;
+}
+.view-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+height: 56px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+    
+}
+.btn-img img{
+    max-width: 30px;
+}
+
