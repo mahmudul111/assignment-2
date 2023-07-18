@@ -78,3 +78,43 @@ background: rgba(11, 2, 35, 0.10);
     max-width: 30px;
 }
 
+/* first banner part */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.banner-containt{
+}
+.banner-img img{
+    width: 70%;
+    margin-left: 150px;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content-title{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner-description{
+    padding-left: 20px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+}
