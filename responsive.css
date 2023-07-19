@@ -4,7 +4,8 @@
     .nav-container,
     .item-container ul,
     .banner-container,
-    .anniversary-container
+    .anniversary-container,
+    .online-game-container
     {
         flex-direction: column;
     }
@@ -25,18 +26,26 @@
 
     }
     .banner-title{
-        font-size: 38px;
+        font-size: 2rem;
         font-weight: 600;
         margin-top: 30px;
+        margin-left: 2rem;
+        
     }
     .content-title{
-        font-size: 65px;
+        font-size: 3.5rem;
         font-weight: 800;
-}
+        margin-left: 2rem;
+    }
+    .banner-description{
+        margin-left: 2rem;
+    }
+      
 .btn-sign{
 font-size: 17px;
 font-weight: 600;
 padding: 15px 30px;
+margin-left: 2rem;
 }
 .btn-go{
     font-size: 17px;
@@ -127,6 +136,9 @@ text-align: center;
 font-size: 12px;
 font-weight: 400;
 }
+.online-game-container{
+    align-items: center;
+}
 
 }
 
@@ -137,7 +149,8 @@ font-weight: 400;
 @media screen and (min-width : 577px) and (max-width : 962px) {
     .nav-container,
     .item-container ul,
-    .anniversary-container
+    .anniversary-container,
+    .online-game-container
     {
         flex-direction: column;
     }
