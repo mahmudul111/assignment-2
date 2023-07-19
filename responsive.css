@@ -140,6 +140,7 @@ font-weight: 400;
     align-items: center;
 }
 
+
 }
 
 
@@ -164,6 +165,10 @@ font-weight: 400;
     .view-btn{
         margin-bottom: 20px;
     }
+    .btn-sign{
+        
+        margin-left: 3rem;
+        }
     .banner-img img{
         width: 90%;
         margin: auto;
@@ -188,6 +193,14 @@ font-weight: 400;
     .badge-img{
         width: 250px;
         bottom: 200px;
+    }
+    
+    .online-games img{
+        margin-left: 200px;
+       
+    }
+    .online-games p{
+        margin-left: 200px;
     }
     
     
