@@ -221,7 +221,8 @@ footer{
 
 }
 .footer-nav-item ul{
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
     gap: 30px;
     margin-top: 3rem;
 }
@@ -243,4 +244,32 @@ font-weight: 600;
     gap: 30px;
     justify-content: center;
     margin-top: 3rem;
+}
+
+.footer-terms-item ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3rem;
+}
+.footer-terms-item ul a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+.footer-terms-item ul a:hover{
+            color: #F948B2;
+}
+.footer-terms-item ul li{
+        list-style: none;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+margin-top: 30px;
+padding-bottom: 100px;
 }
