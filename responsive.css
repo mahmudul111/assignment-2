@@ -95,6 +95,38 @@ text-align: center;
     text-align: center;
     gap: 1rem;
 }
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    width: 300px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+.button-container-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.play-btn{
+    width: 120px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0px;
+    text-align: center;
+}
+.games-btn img{
+    width: 30px;
+    height: 30px;
+}
+.games-title p{
+    color: #0B0223;
+font-size: 12px;
+font-weight: 400;
+}
 
 }
 
